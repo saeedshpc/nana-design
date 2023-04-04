@@ -13,6 +13,9 @@ module.exports = {
         bgColor: "#262020",
         textColor: "#CEC9C9",
       },
+      fontFamily: {
+        sans: ["Kufam"],
+      },
     },
   },
   plugins: [],
