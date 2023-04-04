@@ -560,8 +560,20 @@ video {
   height: 230px;
 }
 
+.h-\[260px\] {
+  height: 260px;
+}
+
 .w-36 {
   width: 9rem;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.w-44 {
+  width: 11rem;
 }
 
 .flex-none {
@@ -681,6 +693,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-medium {
