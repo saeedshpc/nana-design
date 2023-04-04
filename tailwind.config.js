@@ -11,7 +11,7 @@ module.exports = {
     extend: {
       colors: {
         bgColor: "#262020",
-        textColor: "#CEC9C9",
+        textColor: "#9C9696",
       },
       fontFamily: {
         sans: ["Kufam"],
