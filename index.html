@@ -27,10 +27,12 @@
 
     <!-- Header -->
     <section id="header">
-      <div class="py-10 px-10 text-textColor">
+      <div class="py-10 px-10 md:px-20 text-textColor">
         <div class="flex items-start justify-between gap-8">
           <!-- left side -->
-          <div class="flex items-center flex-col gap-4 flex-shrink-0 flex-none">
+          <div
+            class="flex items-center flex-col gap-4 md:gap-8 flex-shrink-0 flex-none"
+          >
             <img
               src="./images/instagram-icon.png"
               width="18"
@@ -44,31 +46,35 @@
               heigh="18"
               alt=""
             />
-            <img src="./images/header-line.png" alt="" />
+            <img class="md:hidden" src="./images/header-line.png" alt="" />
+            <img
+              class="hidden md:inline"
+              src="./images/tablet-header-line.png"
+              alt=""
+            />
           </div>
           <!-- center -->
           <div class="grow pt-6">
-            <h1 class="text-center leading-9 text-xl font-semibold">
+            <h1
+              class="text-center leading-9 md:leading-[80px] text-xl md:text-5xl font-semibold md:font-normal mb-12"
+            >
               A Nana, who loves <br />
               UI and UX Design!
             </h1>
+
+            <p
+              class="text-center md:leading-10 text-sm md:text-xl md:font-semibold"
+            >
+              Hi, I'm Nana and I live in Karaj city, my job is UI & UX design
+              and I love to drink coffee and listen to music along with my
+              design, and my head hurts for projects and solving new problems.
+            </p>
           </div>
           <!-- right side -->
           <div class="[writing-mode:vertical-lr] text-sm">
             <a href="#" class="">Nanaforever2377@gmail.com</a>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- @TODO merge this with header -->
-    <section>
-      <div class="py-10 px-10 text-textColor">
-        <p class="text-center leading-10 text-sm">
-          Hi, I'm Nana and I live in Karaj city, my job is UI & UX design and I
-          love to drink coffee and listen to music along with my design, and my
-          head hurts for projects and solving new problems.
-        </p>
       </div>
     </section>
 
