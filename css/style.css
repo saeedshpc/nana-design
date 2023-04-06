@@ -1067,3 +1067,63 @@ body {
     line-height: 80px;
   }
 }
+
+@media (min-width: 976px) {
+  .lg\:mb-32 {
+    margin-bottom: 8rem;
+  }
+
+  .lg\:mb-36 {
+    margin-bottom: 9rem;
+  }
+
+  .lg\:max-w-md {
+    max-width: 28rem;
+  }
+
+  .lg\:max-w-lg {
+    max-width: 32rem;
+  }
+
+  .lg\:max-w-2xl {
+    max-width: 42rem;
+  }
+
+  .lg\:max-w-4xl {
+    max-width: 56rem;
+  }
+
+  .lg\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .lg\:gap-11 {
+    gap: 2.75rem;
+  }
+
+  .lg\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .lg\:leading-\[150PX\] {
+    line-height: 150PX;
+  }
+
+  .lg\:leading-\[150px\] {
+    line-height: 150px;
+  }
+
+  .lg\:leading-\[\] {
+    line-height: ;
+  }
+
+  .lg\:leading-\[60px\] {
+    line-height: 60px;
+  }
+}
