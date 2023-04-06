@@ -141,7 +141,7 @@
       <div class="my-20 px-10 md:px-18 text-textColor text-center">
         <div class="flex flex-col items-center justify-between">
           <h3
-            class="inline-block px-8 py-2 leading-10 text-2xl md:text-5xl font-semibold md:font-medium mb-16 border-l-2 border-textColor"
+            class="inline-block px-8 py-2 leading-10 text-2xl md:text-5xl lg:text-6xl font-semibold md:font-medium mb-16 border-l-2 border-textColor"
           >
             My Projects!
           </h3>
@@ -149,49 +149,90 @@
           <div
             class="inline-block px-8 py-1 leading-10 text-2xl font-semibold md:font-medium mb-16 border-r-2 border-textColor"
           >
-            <h3 class="mb-4 md:mb-8 md:text-5xl">Social Road</h3>
-            <h3>Mobile App _ Website</h3>
+            <h3 class="mb-4 md:mb-8 md:text-5xl lg:text-6xl">Social Road</h3>
+            <h3 class="lg:text-3xl">Mobile App _ Website</h3>
           </div>
+          <p
+            class="hidden text-[#CEC9C9] lg:block mt-8 mb-16 max-w-5xl mx-auto text-center leading-[50px] text-2xl"
+          >
+            Social Road, a project that included the platform. Website,
+            application, CRM and accounting dashboards and... It was one of the
+            best projects where I could freely use my creativity!
+          </p>
         </div>
         <!-- image products -->
         <div
-          class="flex flex-col md:flex-row md:flex-wrap items-center md:justify-between gap-9 md:gap-7"
+          class="lg:max-w-6xl mx-auto flex flex-col lg:flex-row-reverse items-center justify-center gap-9"
         >
-          <!-- mobile images -->
-          <img class="md:hidden" src="/images/product1.png" alt="" />
-          <img class="md:hidden" src="/images/product2.png" alt="" />
-          <img
-            class="md:hidden"
-            class="md:basis-full"
-            src="/images/product3.png"
-            alt=""
-          />
+          <!-- image group -->
+          <div
+            class="flex flex-col md:flex-row lg:flex-col items-center justify-center gap-9"
+          >
+            <!-- mobile images -->
+            <img class="md:hidden" src="/images/product1.png" alt="" />
+            <img class="md:hidden" src="/images/product2.png" alt="" />
 
-          <!-- tablet images -->
+            <!-- tablet images -->
+            <img
+              class="hidden md:inline lg:hidden"
+              src="/images/product1-tablet.png"
+              alt=""
+            />
+            <img
+              class="hidden md:inline lg:hidden"
+              src="/images/product2-tablet.png"
+              alt=""
+            />
 
-          <img
-            class="hidden md:inline md:grow"
-            src="/images/product1-tablet.png"
-            alt=""
-          />
-          <img
-            class="hidden md:inline md:grow"
-            src="/images/product2-tablet.png"
-            alt=""
-          />
-          <img
-            class="hidden md:inline md:basis-full"
-            src="/images/product3-tablet.png"
-            alt=""
-          />
+            <!-- desktop images -->
+            <img
+              class="hidden lg:inline"
+              src="/images/product1-desktop.png"
+              alt=""
+            />
+            <img
+              class="hidden lg:inline"
+              src="/images/product2-desktop.png.png"
+              alt=""
+            />
+          </div>
+          <!-- image box -->
+          <div>
+            <!-- mobile image -->
+            <img class="md:hidden" src="/images/product3.png" alt="" />
+            <!-- tablet image -->
+            <img
+              class="hidden md:inline lg:hidden"
+              src="/images/product3-tablet.png"
+              alt=""
+            />
+            <!-- desktop image -->
+            <img
+              class="hidden lg:inline"
+              src="/images/product3-desktop.png.png"
+              alt=""
+            />
+          </div>
         </div>
+
         <!-- products button -->
-        <div class="mt-14 md:mt-20">
+        <div
+          class="lg:max-w-6xl mx-auto mt-14 md:mt-20 flex justify-center items-center lg:justify-end"
+        >
           <a
-            class="px-10 py-2 bg-[#FF5C00] text-[#262020] rounded-xl font-medium"
+            class="lg:hidden px-10 py-2 bg-[#FF5C00] text-[#262020] rounded-xl font-medium"
             href="#"
             >View all projects</a
           >
+          <div class="hidden lg:block">
+            <a
+              class="flex items-center gap-4 hover:text-[#CEC9C9] duration-200"
+              href="#"
+            >
+              <span class="text-xl font-medium">View all projects</span>
+              <img src="/images/learn-more-icon.png" alt="" />
+            </a>
+          </div>
         </div>
       </div>
     </section>
