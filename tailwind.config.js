@@ -12,6 +12,8 @@ module.exports = {
       colors: {
         bgColor: "#262020",
         textColor: "#9C9696",
+        myOrange: "#FF5C00",
+        lightText: "#CEC9C9",
       },
       fontFamily: {
         sans: ["Kufam"],
